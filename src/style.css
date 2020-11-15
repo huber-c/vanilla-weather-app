@@ -87,9 +87,9 @@ li:first-letter {
 }
 
 .weather-temperature img {
-  margin-right: 5px;
-  height: 64px;
-  width: 64px;
+  height: 90px;
+  width: 90px;
+  margin: -18px 5px 0px -50px;
 }
 
 .weather-temperature strong {
