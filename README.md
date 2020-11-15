@@ -1,2 +1,4 @@
-# Vanilla-js_Weather-app
- Vanilla-js_Weather-app
+# Weather-app
+This was a project created and adapted while following the SheCodes Plus learning path.
+
+👩‍🏫 [Check out SheCodes](https://www.shecodes.io/)
