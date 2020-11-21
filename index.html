@@ -29,11 +29,6 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
-          <form id="search-form" class="mb-3">
-            <div class="row">
-              <div class="col-9"></div>
-            </div>
-          </form>
           <div class="row">
             <div class="col-5">
               <div class="overview">
@@ -60,8 +55,9 @@
                 </div>
               </div>
             </div>
-            <p></p>
+            
             <div class="col-4 searchbox">
+              <form id="search-form">
               <input
                 type="search"
                 placeholder="Search for a city.."
@@ -82,9 +78,13 @@
                 class="btn btn-primary w-100 searchbutton-text fas fa-search-location"
               />
             </div>
+            
+            </form>
           </div>
           <div class="row weather-forecast" id="forecast"></div>
         </div>
+      </div>
+      <div class="footer">
         <small>
           <a
             href="https://github.com/huber-c/vanilla-weather-app"
@@ -94,7 +94,7 @@
           >
           by Carina H.
         </small>
-      </div>
+        </div>
     </div>
     <script src="src/app.js"></script>
   </body>

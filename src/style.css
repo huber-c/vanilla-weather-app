@@ -71,7 +71,7 @@ li:first-letter {
 }
 
 .weather-app {
-  padding: 25px;
+  padding: 30px;
   border: 0px solid #dadde1;
   border-radius: 5px;
   background-image: linear-gradient(
@@ -152,6 +152,7 @@ li:first-letter {
 
 .footer {
   margin-left: 5px;
+  margin-top: -15px;
 }
 
 @media only screen and (max-width: 494px) {
