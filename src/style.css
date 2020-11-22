@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color: #555151;
+  color:  #2c2c2c;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -128,7 +128,7 @@ li:first-letter {
 }
 
 .weather-forecast h3 {
-  color: #555151;
+  color: #2c2c2c;
   font-size: 14px;
   font-weight: 400;
   text-align: center;
