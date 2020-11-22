@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color:  #2c2c2c;
+  color: #2c2c2c;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -182,13 +182,13 @@ li:first-letter {
   }
   .weather-app {
     padding: 10px;
+  }
 }
 
 @media only screen and (max-width: 396px) {
   h1 {
     margin-top: 40px;
   }
-  
 }
 
 @media only screen and (max-width: 325px) {
