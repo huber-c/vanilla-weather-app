@@ -120,11 +120,15 @@ li:first-letter {
 }
 
 .weather-forecast {
-  margin-top: 10px;
+  margin: 5px 0px 35px 0px;
+}
+
+.forecast-element {
+  padding-left: 0px;
 }
 
 .weather-forecast h3 {
-  color: rgb(186, 186, 186);
+  color: #555151;
   font-size: 14px;
   font-weight: 400;
   text-align: center;
@@ -142,7 +146,7 @@ li:first-letter {
 
 .weather-forecast-temperature {
   text-align: center;
-  color: rgb(135, 135, 135);
+  color: #555151;
   font-size: 13px;
   font-weight: 400;
   height: auto;
