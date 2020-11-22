@@ -175,20 +175,28 @@ li:first-letter {
 
 @media only screen and (max-width: 465px) {
   h1 {
-    margin-top: 40px;
     font-size: 20px;
   }
+  .weather-app-wrapper {
+    margin: 15px auto;
+  }
+  .weather-app {
+    padding: 10px;
 }
 
 @media only screen and (max-width: 396px) {
-  #temp-move {
-    margin-top: 20px;
-    position: absolute;
+  h1 {
+    margin-top: 40px;
   }
+  
 }
 
 @media only screen and (max-width: 325px) {
   .main-image {
     display: none;
+  }
+  #temp-move {
+    margin-top: 20px;
+    position: absolute;
   }
 }
